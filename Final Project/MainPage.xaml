@@ -9,8 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TimePicker x:Name="TimePicker" HorizontalAlignment="Left" Margin="460,298,0,0" VerticalAlignment="Top"/>
-        <DatePicker HorizontalAlignment="Left" Margin="460,413,0,0" VerticalAlignment="Top"/>
+        <TimePicker x:Name="TimePicker" HorizontalAlignment="Left" Margin="169,340,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="DatePicker" HorizontalAlignment="Left" Margin="169,468,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="Clock" Source="Clock.png" HorizontalAlignment="Left" Height="564" Margin="700,324,0,0" VerticalAlignment="Top" Width="568"/>
 
     </Grid>
 </Page>
