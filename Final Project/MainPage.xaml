@@ -8,10 +8,12 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <TimePicker x:Name="TimePicker" HorizontalAlignment="Left" Margin="169,340,0,0" VerticalAlignment="Top"/>
-        <DatePicker x:Name="DatePicker" HorizontalAlignment="Left" Margin="169,468,0,0" VerticalAlignment="Top"/>
-        <Image x:Name="Clock" Source="Clock.png" HorizontalAlignment="Left" Height="564" Margin="700,324,0,0" VerticalAlignment="Top" Width="568"/>
+    <Viewbox Stretch="Fill">
+        <Grid Height="Auto" Width="Auto">
+            <TimePicker x:Name="TimePicker" HorizontalAlignment="Stretch" Margin="169,377,1089,557" VerticalAlignment="Stretch"/>
+            <DatePicker x:Name="DatePicker" HorizontalAlignment="Stretch" Margin="169,468,1002,464" VerticalAlignment="Stretch"/>
+            <Image x:Name="Clock" Source="Clock.png" Margin="714,200,183,200" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
 
-    </Grid>
+        </Grid>
+    </Viewbox>
 </Page>
